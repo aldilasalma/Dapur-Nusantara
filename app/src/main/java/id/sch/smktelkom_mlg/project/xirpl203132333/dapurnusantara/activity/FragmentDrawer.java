@@ -21,68 +21,10 @@ import id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.R;
 import id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.adapter.NavigationDrawerAdapter;
 import id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.model.NavDrawerItem;
 
-public interface ClickListener {
-    void onClick(View view, int position);
-
-    void onLongClick(View view, int position);
-}
-
-public interface FragmentDrawerListener {
-    void onDrawerItemSlected(View view, int position);
-}
-
-static class RecyclerTouchListener implements RecyclerView.OnItemTouchListener {
-    private GestureDetector gestureDetector;
-    private ClickListener clickListener;
-
-    public RecyclerTouchListener(Context context, final RecyclerView recyclerView, final ClickListener clickListener) {
-        this.clickListener = clickListener;
-        gestureDetector = new GestureDetector(context, new GestureDetector.SimpleOnGestureListener() {
-
-            @Override
-            public boolean onSingleTapUp(MotionEvent e) {
-                return true;
-            }
-
-            @Override
-            public void onLongPress(MotionEvent e) {
-                View child = recyclerView.findChildViewUnder(e.getX(), e.getY());
-                if (child != null && clickListener != null) {
-                    clickListener.onLongClick(child, recyclerView.getChildPosition(child));
-                }
-            }
-        });
-    }
-
-    @Override
-    public boolean onInterceptTouchEvent(RecyclerView rv, MotionEvent e) {
-        View child = rv.findChildViewUnder(e.getX(), e.getY());
-        if (child != null && clickListener != null && gestureDetector.onTouchEvent(e)) {
-            clickListener.onClick(child, rv.getChildPosition(child));
-        }
-        return false;
-    }
-
-    @Override
-    public void onTouchEvent(RecyclerView rv, MotionEvent e) {
-    }
-
-    public void onRequestDisallowInterceptTouchEvent(boolean disallowIntercept) {
-    }
-}
-
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link FragmentDrawer.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link FragmentDrawer#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class FragmentDrawer extends Fragment {
+
     private static String TAG = FragmentDrawer.class.getSimpleName();
     private static String[] titles = null;
-    int i = 0;
     private RecyclerView recyclerView;
     private ActionBarDrawerToggle mDrawerToggle;
     private DrawerLayout mDrawerLayout;
@@ -90,41 +32,39 @@ public class FragmentDrawer extends Fragment {
     private View containerView;
     private FragmentDrawerListener drawerListener;
 
-    {
-        NavDrawerItem navItem = new NavDrawerItem();
-        navItem.setTitle(titles[i]);
-        data.add(navItem);
-    }
-
     public FragmentDrawer() {
 
     }
 
-    for(
-
     public static List<NavDrawerItem> getData() {
         List<NavDrawerItem> data = new ArrayList<>();
-    }
 
-    i<titles.length i
-    ++)
+
+        // preparing navigation drawer items
+        for (int i = 0; i < titles.length; i++) {
+            NavDrawerItem navItem = new NavDrawerItem();
+            navItem.setTitle(titles[i]);
+            data.add(navItem);
+        }
+        return data;
+    }
 
     public void setDrawerListener(FragmentDrawerListener listener) {
         this.drawerListener = listener;
     }
 
-    return data
-}
-
     @Override
-    public void onCreateView(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        // drawer labels
         titles = getActivity().getResources().getStringArray(R.array.nav_drawer_labels);
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflating view layout
         View layout = inflater.inflate(R.layout.fragment_navigation_drawer, container, false);
         recyclerView = (RecyclerView) layout.findViewById(R.id.drawerList);
 
@@ -143,14 +83,15 @@ public class FragmentDrawer extends Fragment {
 
             }
         }));
+
         return layout;
     }
+
 
     public void setUp(int fragmentId, DrawerLayout drawerLayout, final Toolbar toolbar) {
         containerView = getActivity().findViewById(fragmentId);
         mDrawerLayout = drawerLayout;
         mDrawerToggle = new ActionBarDrawerToggle(getActivity(), drawerLayout, toolbar, R.string.drawer_open, R.string.drawer_close) {
-
             @Override
             public void onDrawerOpened(View drawerView) {
                 super.onDrawerOpened(drawerView);
@@ -163,6 +104,7 @@ public class FragmentDrawer extends Fragment {
                 getActivity().invalidateOptionsMenu();
             }
 
+            @Override
             public void onDrawerSlide(View drawerView, float slideOffset) {
                 super.onDrawerSlide(drawerView, slideOffset);
                 toolbar.setAlpha(1 - slideOffset / 2);
@@ -176,7 +118,61 @@ public class FragmentDrawer extends Fragment {
                 mDrawerToggle.syncState();
             }
         });
+
     }
 
+    public interface ClickListener {
+        void onClick(View view, int position);
+
+        void onLongClick(View view, int position);
+    }
+
+    public interface FragmentDrawerListener {
+        void onDrawerItemSelected(View view, int position);
+    }
+
+    static class RecyclerTouchListener implements RecyclerView.OnItemTouchListener {
+
+        private GestureDetector gestureDetector;
+        private ClickListener clickListener;
+
+        public RecyclerTouchListener(Context context, final RecyclerView recyclerView, final ClickListener clickListener) {
+            this.clickListener = clickListener;
+            gestureDetector = new GestureDetector(context, new GestureDetector.SimpleOnGestureListener() {
+                @Override
+                public boolean onSingleTapUp(MotionEvent e) {
+                    return true;
+                }
+
+                @Override
+                public void onLongPress(MotionEvent e) {
+                    View child = recyclerView.findChildViewUnder(e.getX(), e.getY());
+                    if (child != null && clickListener != null) {
+                        clickListener.onLongClick(child, recyclerView.getChildPosition(child));
+                    }
+                }
+            });
+        }
+
+        @Override
+        public boolean onInterceptTouchEvent(RecyclerView rv, MotionEvent e) {
+
+            View child = rv.findChildViewUnder(e.getX(), e.getY());
+            if (child != null && clickListener != null && gestureDetector.onTouchEvent(e)) {
+                clickListener.onClick(child, rv.getChildPosition(child));
+            }
+            return false;
+        }
+
+        @Override
+        public void onTouchEvent(RecyclerView rv, MotionEvent e) {
+        }
+
+        @Override
+        public void onRequestDisallowInterceptTouchEvent(boolean disallowIntercept) {
+
+        }
 
 
+    }
+}
