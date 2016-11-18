@@ -9,12 +9,10 @@ import android.view.ViewGroup;
 
 import id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.R;
 
-/**
- * Created by USER on 17/11/2016.
- */
-public class HomeFragment extends Fragment {
 
-    public HomeFragment() {
+public class TambahResepFragment extends Fragment {
+
+    public TambahResepFragment() {
         // Required empty public constructor
     }
 
@@ -27,7 +25,7 @@ public class HomeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_home, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_tambah_resep, container, false);
 
 
         // Inflate the layout for this fragment

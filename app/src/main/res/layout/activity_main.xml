@@ -31,6 +31,7 @@
 
     </LinearLayout>
 
+
     <fragment
         android:id="@+id/fragment_navigation_drawer"
         android:name="id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.activity.FragmentDrawer"
