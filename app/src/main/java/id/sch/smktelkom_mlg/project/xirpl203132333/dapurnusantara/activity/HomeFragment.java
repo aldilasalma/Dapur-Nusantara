@@ -21,6 +21,8 @@ import id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.model.Hotel;
 /**
  * Created by USER on 17/11/2016.
  */
+
+
 public class HomeFragment extends Fragment {
 
     ArrayList<Hotel> mList = new ArrayList<>();
@@ -34,15 +36,7 @@ public class HomeFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
-        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
-        recyclerView.setLayoutManager(layoutManager);
-        mAdapter = new HotelAdapter(mList);
-        recyclerView.setAdapter(mAdapter);
-
-        filData();
     }
-
 
     private void filData() {
         Resources resources = getResources();
@@ -61,12 +55,19 @@ public class HomeFragment extends Fragment {
         mAdapter.notifyDataSetChanged();
     }
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_home, container, false);
 
+
+        RecyclerView recyclerView = (RecyclerView) rootView.findViewById(R.id.recyclerView);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
+        recyclerView.setLayoutManager(layoutManager);
+        mAdapter = new HotelAdapter(mList);
+        recyclerView.setAdapter(mAdapter);
+
+        filData();
 
         // Inflate the layout for this fragment
         return rootView;
