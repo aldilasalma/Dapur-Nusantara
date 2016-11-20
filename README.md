@@ -17,7 +17,7 @@ Gambar Menu:
 + Nama : Aldila Salma Yulita
 + Kelas : XII - RPL 2
 + No. Urut : 03
-+ NIS : -
++ NIS : 4281/1179.063
 + Nama Sekolah : SMK Telkom Malang
 
 + Nama : Effida Nur Maulidiyah
@@ -35,6 +35,6 @@ Gambar Menu:
 + Nama : Riza Ramadhani
 + Kelas : XII - RPL 2
 + No. Urut : 23
-+ NIS : -
++ NIS : 4426/1324.063
 + Nama Sekolah : SMK Telkom Malang
 
