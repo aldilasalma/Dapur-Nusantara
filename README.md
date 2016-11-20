@@ -1,5 +1,7 @@
-# Nama Aplikasi : Dapur-Nusantara
-# Penjelasan Aplikasi : Aplikasi Dapur Nusantara merupakan aplikasi yang bertujuan untuk menampilkan resep masakan khususnya resep masakan khas Indonesia. 
+# Nama Aplikasi : 
+Dapur-Nusantara
+# Penjelasan Aplikasi : 
+Aplikasi Dapur Nusantara merupakan aplikasi yang bertujuan untuk menampilkan resep masakan khususnya resep masakan khas Indonesia. 
 # Screenshot Aplikasi :
 Gambar Navigation Drawer: 
 ![alt text](https://github.com/aldilasalma/Dapur-Nusantara/blob/master/1.jpeg "Navigasi")
