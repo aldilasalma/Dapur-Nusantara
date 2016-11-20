@@ -41,7 +41,7 @@ public class HomeFragment extends Fragment {
     private void filData() {
         Resources resources = getResources();
         String[] arJudul = resources.getStringArray(R.array.places);
-        String[] arDeskripsi = resources.getStringArray(R.array.place_desc);
+        //String[] arDeskripsi = resources.getStringArray(R.array.place_desc);
         TypedArray a = resources.obtainTypedArray(R.array.places_picture);
         Drawable[] arFoto = new Drawable[a.length()];
         for (int i = 0; i < arFoto.length; i++) {
@@ -50,7 +50,7 @@ public class HomeFragment extends Fragment {
         a.recycle();
 
         for (int i = 0; i < arJudul.length; i++) {
-            mList.add(new Hotel(arJudul[i], arDeskripsi[i], arFoto[i]));
+            mList.add(new Hotel(arJudul[i], arFoto[i]));
         }
         mAdapter.notifyDataSetChanged();
     }
