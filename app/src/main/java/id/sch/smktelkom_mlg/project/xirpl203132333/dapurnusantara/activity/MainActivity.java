@@ -86,11 +86,11 @@ public class MainActivity extends ActionBarActivity implements FragmentDrawer.Fr
                 break;
             case 1:
                 fragment = new TambahResepFragment();
-                title = getString(R.string.title_friends);
+                title = getString(R.string.title_messages);
                 break;
             case 2:
                 fragment = new TipsFragment();
-                title = getString(R.string.title_friends);
+                title = getString(R.string.title_tips);
             default:
                 break;
 

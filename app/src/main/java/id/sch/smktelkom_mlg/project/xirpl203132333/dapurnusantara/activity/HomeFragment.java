@@ -15,8 +15,8 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 
 import id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.R;
-import id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.adapter.HotelAdapter;
-import id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.model.Hotel;
+import id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.adapter.ResepAdapter;
+import id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.model.Resep;
 
 /**
  * Created by USER on 17/11/2016.
@@ -25,8 +25,8 @@ import id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.model.Hotel;
 
 public class HomeFragment extends Fragment {
 
-    ArrayList<Hotel> mList = new ArrayList<>();
-    HotelAdapter mAdapter;
+    ArrayList<Resep> mList = new ArrayList<>();
+    ResepAdapter mAdapter;
 
     public HomeFragment() {
         // Required empty public constructor
@@ -50,7 +50,7 @@ public class HomeFragment extends Fragment {
         a.recycle();
 
         for (int i = 0; i < arJudul.length; i++) {
-            mList.add(new Hotel(arJudul[i], /*arDeskripsi[i]*/ arFoto[i]));
+            mList.add(new Resep(arJudul[i], /*arDeskripsi[i] */ arFoto[i]));
         }
         mAdapter.notifyDataSetChanged();
     }
@@ -64,7 +64,7 @@ public class HomeFragment extends Fragment {
         RecyclerView recyclerView = (RecyclerView) rootView.findViewById(R.id.recyclerView);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(layoutManager);
-        mAdapter = new HotelAdapter(mList);
+        mAdapter = new ResepAdapter(mList);
         recyclerView.setAdapter(mAdapter);
 
         filData();

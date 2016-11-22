@@ -10,17 +10,17 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 import id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.R;
-import id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.model.Hotel;
+import id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.model.Resep;
 
 /**
  * Created by Maulidiyah on 06/11/2016.
  */
-public class HotelAdapter extends RecyclerView.Adapter<HotelAdapter.ViewHolder> {
+public class ResepAdapter extends RecyclerView.Adapter<ResepAdapter.ViewHolder> {
 
-    ArrayList<Hotel> hotelList;
+    ArrayList<Resep> resepList;
 
-    public HotelAdapter(ArrayList<Hotel> hotelList) {
-        this.hotelList = hotelList;
+    public ResepAdapter(ArrayList<Resep> resepList) {
+        this.resepList = resepList;
     }
 
     @Override
@@ -32,29 +32,29 @@ public class HotelAdapter extends RecyclerView.Adapter<HotelAdapter.ViewHolder> 
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        Hotel hotel = hotelList.get(position);
-        holder.tvJudul.setText(hotel.judul);
-        //holder.tvDeskripsi.setText(hotel.deskripsi);
-        holder.ivFoto.setImageDrawable(hotel.foto);
+        Resep resep = resepList.get(position);
+        holder.tvJudul.setText(resep.judul);
+        // holder.tvDeskripsi.setText(resep.deskripsi);
+        holder.ivFoto.setImageDrawable(resep.foto);
     }
 
     @Override
     public int getItemCount() {
-        if (hotelList != null)
-            return hotelList.size();
+        if (resepList != null)
+            return resepList.size();
         return 0;
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         ImageView ivFoto;
         TextView tvJudul;
-        //TextView tvDeskripsi;
+        // TextView tvDeskripsi;
 
         public ViewHolder(View itemView) {
             super(itemView);
             ivFoto = (ImageView) itemView.findViewById(R.id.imageView);
             tvJudul = (TextView) itemView.findViewById(R.id.textViewJudul);
-            //tvDeskripsi = (TextView) itemView.findViewById(R.id.textViewDeskripsi);
+            // tvDeskripsi = (TextView) itemView.findViewById(R.id.textViewDeskripsi);
         }
     }
 }
