@@ -10,7 +10,7 @@ public class Hotel {
     //public String deskripsi;
     public Drawable foto;
 
-    public Hotel(String judul, Drawable foto) {
+    public Hotel(String judul, /*String deskripsi*/ Drawable foto) {
         this.judul = judul;
         //this.deskripsi = deskripsi;
         this.foto = foto;

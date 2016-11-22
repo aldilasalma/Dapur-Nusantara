@@ -26,6 +26,9 @@
         <item>Ayam Cinane</item>
         <item>Sop Konro</item>
     </string-array>
+    <string-array name="place_desc">
+        <item>Ini masakan khas Aceh</item>
+    </string-array>
     <string-array name="place_details">
         <item>Bahan-bahan yang diperlukan:
 

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string-array name="tips">
+        <item>Mengupas Kentang Agar Mudah</item>
+        <item>Mengempukkan Daging</item>
+        <item>Memarut Kelapa Agar Lebih Banyak Santan</item>
+        <item>Menghilangkan Bau Amis</item>
+        <item>Memasak Ayam Agar Lebih Gurih</item>
+        <item>Memasak Jengkol Empuk</item>
+        <item>Ayam Panggang agar Tidak Hancur</item>
+        <item>Kremes yang Gurih dan Nikmat</item>
+        <item>Menghilangkan Rasa Pahit Pada Pare</item>
+        <item>Memilih Buah - buahan Yang Masih Segar</item>
+    </string-array>
+    <string-array name="tips_details">
+        <item>Iris tipis melingkar di kulit kentang, kemudian rebus kentang tersebut selama lima menit. Usai direbus, langsung dimasukkan ke dalam semangkuk air dingin dan tunggu lagi selama lima menit. Dijamin deh kulit kentang lebih mudah dikupas dan kentang tidak akan menjadi coklat.</item>
+        <item>Untuk menambah keempukan daging rendang yang kita buat usahakan daging yang sudah dipotong sebaiknya dipukul atau digeprek terlebih dahulu baru kemudian di ungkep</item>
+        <item>Parut kelapa dengan memegangnya secara horisontal.</item>
+        <item>Kalau kamu tidak suka bau amis, kamu bisa menambahkan jeruk nipis pada ikan yang akan kamu masak.</item>
+        <item>1.Buang kulitnya
+Kulit ayam memiliki lemak yang cukup tebal sehingga hasil olahan ayam Anda jadi mudah lembek dan tidak kering/kesat. Untuk menyiasatinya, Anda bisa membuang semua kulit yang meyelimuti tubuh ayam. (Tips Memasak AYam Kampung Lebih epat EMpuk)
+2.Rebus dengan rempah untuk hilangkan lemak
+Merebus ayam dengan rempah-rempah pilihan akan membantu menghilangkan lemak pada daging ayam broiler. Beberapa rempah tersebut antara lain : daun salam, laos, daun jeruk, jahe, dan lain sebagainya.
+3.Ungkep ayam dengan bumbu pilihan agar rasanya lebih gurih dan harum
+Setelah direbus, Anda bisa ungkep ayam dengan bumbu pilihan, antara lain : bawang putih, ketumbar, kunyit, dan garam. Proses ini akan membuat daging ayam lebih gurih dan beraroma harum. Tapi, ini bisa dilakukan jika Anda ingin membuat ayam goreng yaa… jika ingin mengolahnya menjadi masakan lain, Anda tidak perlu melakukannya.
+4.Bumbui ayam sesuai selera
+Jika Anda ingin membuat olahan ayam yang lain, misalnya : ayam bumbu bali, ayam kecap, ayam bumbu kare, dan lain sebagainya. Anda tinggal membumbui ayam seperti biasa.</item>
+        <item>• Pemilihan jengkol yang tepatAgar rasa olahan jengkol sempurna, usahakan memilih jengkol yang benar-benar tua.
+• Merendam jengkolProses perendaman akan membantu mengurangi bau tidak sedap pada jengkol dan menetralisir racun. Anda bisa merendam jengkol dnegan air es selama semalam atau bisa juga merendam jengkol dengan air kapur sirih. Cara ini tidak mengurangi kenikmatan jengkol, jadi tidak perlu khawatir ya!
+• Merebus jengkol dengan bahan-bahan tertentuUntuk menetralisir bau jengkol sebelum dimasak, Adan bisa merebus jengkol bersama daun jeruk purut. Caranya, iris-iris daun jeruk purut, lalu masukkan pada rebusan jengkol. Cara lain yang bisa dilakukan adalah merebus jengkol bersama daun jambu biji hingga empuk, lalu buang air rebusannya. Cara ini tidak hanya membantu menetralisir bau, tapi juga mengurangi kandungan racun dalam jengkol
+• Proses perebusan yang tepatSaat merebus jengkol, usahakan tidak terlalu matang, karena akan membuat jengkol hancur saat dipipihkan. Proses pemipihan jengkol bertujuan agar bumbu lebih meresap sempurna didalam jengkol. Setelah semuanya beres, Anda bebas mengolah jengkol sesuai selera.
+• Menetralisir bau mulut akibat makan jengkolSetelah mengonsumsi jengkol, nafas Anda pasti tercium bau kurang sedap. Untuk menetralisir bau mulut, Anda bisa minum kopi pahit tanpa gula. Aroma kopi yang wangi bakal membantu menghilangkan bau jengkol yang tajam.</item>
+        <item> •    Pilih ayam yang fresh
+Mau ayam kampung atau broiler, yang pasti harus fresh agar hasilnya lebih gurih dan lezat. Potong ayam seukuran agar hasil olahan bisa matang sempurna dan tidak berdarah.
+•    Pilih bumbu yang banyak
+Ayam panggang akan lebih special ketika menggunakan bumbu yang banyak, karena membuatnya lebih empuk dan mudha meresap hingga ke tulang.
+•    Masak dengan api kecil hingga menyusut
+Ungkep ayam dengan bumbu hingga meresap dan menyusut. Tapi jangan gunakan api besar, karena akan membuat ayam mudah hancur dan kurang menarik. Yang benar adalah menggunakan api kecil dan dimasak dalam waktu lama.
+•    Hati-hati saat membalik ayam
+Saat diungkep, jangan lupa membalik beberapa ayam yang mungkin tidak terendam bumbu. Gunakan penjepit untuk membalik agar ayam tidak hancur dan pastinya bentuknya bisa tetap utuh.
+•    Diamkan hingga bumbu meresap hingga ke tulang
+Setelah diungkep hingga kering, Anda jangan langsung memanggang ayam tapi diamkan dulu selama 3-4 jam agar ayam tidak panas dan pastinya bumbu lebih meresap kuat.
+•    Panggang dalam oven
+Setelah didiamkan selama 3-4 jam, Anda bisa menata ayam dalam Loyang, lalu panggang dalam oven hingga matang kecoklatan.</item>
+        <item>
+            1.     Adonan kremesan biasanya terbuat dari tepung kanji. Tapi, Ibu juga bisa menggunakan tepung sagu atau tepung beras. Hindari menambahkan telur pada adonan kremesan ya Bu, karena bisa membuat kremesan jadi alot, menggumpal, dan kerenyahannya tidak tahan lama.
+            2.     Selain renyah, kremesan juga harus lezat dan gurih. Karena itu, bumbui adonan kremes dengan jahe, bawang putih, kemiri, dan sedikit kunyit sebagai pewarna. Jangan lupa, tambahkan Royco rasa Ayam agar cita rasanya jadi lebih mantap.
+            3.     Kremesan sebaiknya digoreng secara terpisah dengan ayam goreng. Jika digoreng bersama ayam, kremesan akan menjadi lengket dan gosong.
+            4.     Kalau ingin membuat kremesan yang menyelimuti ayam goreng, sebaiknya rasio tepung sagu dalam adonan lebih banyak dibandingkan tepung beras.
+            5.     Adonan kremesan yang tepat adalah adonan yang agak cair sehingga langsung terlihat berserabut saat dimasukkan ke dalam minyak panas.
+            6.     Goreng kremesan sedikit demi sedikit dalam minyak yang panas agar kremesan matang merata dan renyah.
+            7.     Tiriskan kremesan hingga minyaknya benar-benar mengering, sehingga kremesan renyah dan tak berminyak
+        </item>
+        <item>
+            1. Gunakan Garam
+            Untuk menghilangkan rasa pahit pare, anda bisa memotong pare menjadi dua bagian, buang biji dan bersihkan selaput putih yang ada pada bagian dalamnya. Setelah itu anda bisa iris tipis buah pare. Tambahkan garam halus lalu remas-remas sampai pare lemas. Diamkan selama kurang lebih 15 menit, lalu cuci bersih diair mengalir. Pare siap untuk diolah sesuai selera.
+            Cara lain yang bisa anda coba untuk menghilangkan pahit pare adalah dengan merebus pare dengan air yang ditambahkan garam sampai pare setengah empuk. Lalu tiriskan airnya dan pare pun siap untuk dimasak.
+            2. Gunakan Gula Pasir
+            Cara menghilangkan pahit pare dengan gula pasir ini sebenarnya tidak jauh berbeda dengan teknik menghilangkan pahit pare menggunakan garam, yaitu dengan mengganti garam dengan gula pahir. Meremas pare perlu dilakukan untuk mambantu agar cairan atau yang disebut sebagai ekstrak pahit dalam daging buah pare bisa keluar. Sehingga pahit pada buah pare akan berkurang.
+            3. Daun Jambu Biji
+            Anda juga bisa merebus pare bersama daun jambu biji untuk menghilangkan pahit pada sayur pare. Namun sebelum direbus, anda remas-remas terlebih dahulu daun jambu biji yang akan digunakan. Lama proses perebusan pare dalam air mendidih dilakukan hanya sekitar 5 menit saja, sampai setengah matang. Biasanya untuk ½ kg buah pare digunakan 10 lembar daun jambu biji.
+        </item>
+        <item>
+            1. Pilihlah Buah Yang Warnanya Cukup Cerah.
+            Buah-buahan yang masih segar akan memiliki warna yang lebih cerah dibandingkan dengan yang sudah mulai membusuk. Maka dari itu, pilihlah buah yang memiliki warna yang masih cerah. Jika warnanya sudah berubah menjadi agak kusam, kurang cerah (berubah dari warna sebelumnya) lebih baik tidak anda pilih.
+            2. Pilihlah Buah Yang Kulitnya Masih Bagus.
+            Yang kedua yaitu carilah buah yang bentuk kulitnya masih bagus alias tidak rusak.
+            Kulit buah yang masih bagus biasanya itu merupakan tanda bahwa buah-buahan tersebut masih segar. Dan buah-buahan yang kulitnya sudah lembek, keriput atau rusak maka buah itu sudah lama atau mungkin dapat dipastikan buah tersebut sudah busuk. Jadi pilihlah buah yang measih memiliki kulit bagus dan warnanya juga cerah.
+            3. Pilihlah Buah Yang Teksturnya Masih Utuh.
+            Yang ketiga yaitu memilih buah dengan tekstur yang baik, misalnya anda membeli buah apel maka carilah yang teksturnya memang masih seperti buah apel dan sebagaimana ciri-ciri buah apel yang masih segar mereka memiliki daging yang sedikit keras. Tapi jika buah apelnya sudah lembek maka anda lebih baik tidak membelinya.
+            4. Pilihlah Buah Yang Aromanya Masih Segar.
+            Ke empat yaitu memilih buah yang aromanya masih segar, anda semua pasti sudah tahu bagaimana aroma buah yang masih segar dan bagaimana aroma buah yang sudah membusuk. Jadi sebelum membeli silahkan untuk mencium bagaimana aromanya untuk memastikan bahwa buah tersdebut masih dalam keadaan baik atau tidak.
+        </item>
+    </string-array>
+    <array name="tips_picture">
+        <item>@drawable/aa</item>
+        <item>@drawable/bb</item>
+        <item>@drawable/cc</item>
+        <item>@drawable/dd</item>
+        <item>@drawable/ee</item>
+        <item>@drawable/ff</item>
+        <item>@drawable/gg</item>
+        <item>@drawable/hh</item>
+        <item>@drawable/ii</item>
+        <item>@drawable/jj</item>
+    </array>
+</resources>

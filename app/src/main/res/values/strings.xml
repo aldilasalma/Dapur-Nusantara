@@ -7,12 +7,14 @@
 
     <string name="nav_item_home">Home</string>
     <string name="nav_item_resep_add">Tambah Resep</string>
+    <string name="nav_item_tips">Tips And Trik</string>
     <string name="nav_item_notifications">Messages</string>
 
     <!-- navigation drawer item labels  -->
     <string-array name="nav_drawer_labels">
         <item>@string/nav_item_home</item>
         <item>@string/nav_item_resep_add</item>
+        <item>@string/nav_item_tips</item>
         <item>@string/nav_item_notifications</item>
     </string-array>
 
