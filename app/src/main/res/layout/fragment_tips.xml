@@ -9,7 +9,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:scrollbars="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.activity.HomeFragment"
+    tools:context="id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.activity.HomeFragment"
     tools:showIn="@layout/activity_main">
 
 </android.support.v7.widget.RecyclerView>

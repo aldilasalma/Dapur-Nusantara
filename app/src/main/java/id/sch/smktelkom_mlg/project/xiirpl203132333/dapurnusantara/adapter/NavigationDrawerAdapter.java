@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.adapter;
+package id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -10,8 +10,8 @@ import android.widget.TextView;
 import java.util.Collections;
 import java.util.List;
 
-import id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.R;
-import id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.model.NavDrawerItem;
+import id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.R;
+import id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.model.NavDrawerItem;
 
 /**
  * Created by aldila on 11/17/2016.

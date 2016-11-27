@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.model;
+package id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.model;
 
 import android.graphics.drawable.Drawable;
 
@@ -7,11 +7,13 @@ import android.graphics.drawable.Drawable;
  */
 public class Resep {
     public String judul;
+    public String lokasi;
     //public String deskripsi;
     public Drawable foto;
 
-    public Resep(String judul, /*String deskripsi ,*/ Drawable foto) {
+    public Resep(String judul, String lokasi, /*String deskripsi ,*/ Drawable foto) {
         this.judul = judul;
+        this.lokasi = lokasi;
         //  this.deskripsi = deskripsi;
         this.foto = foto;
     }

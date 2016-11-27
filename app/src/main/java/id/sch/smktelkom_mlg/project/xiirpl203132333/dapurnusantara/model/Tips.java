@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.model;
+package id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.model;
 
 import android.graphics.drawable.Drawable;
 

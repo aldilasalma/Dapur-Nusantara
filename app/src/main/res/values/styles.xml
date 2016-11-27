@@ -8,7 +8,7 @@
         <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
         <item name="colorPrimary">#ce6fac</item>
-        <item name="colorPrimaryDark">#fff4da</item>
+        <item name="colorPrimaryDark">#000000</item>
         <item name="colorAccent">#c7a6af</item>
     </style>
 

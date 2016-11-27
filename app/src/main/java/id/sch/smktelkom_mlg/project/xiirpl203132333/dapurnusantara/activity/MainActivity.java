@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.activity;
+package id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.activity;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -10,9 +10,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Toast;
 
-import id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.R;
+import id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.R;
 
 public class MainActivity extends ActionBarActivity implements FragmentDrawer.FragmentDrawerListener {
 
@@ -59,12 +58,7 @@ public class MainActivity extends ActionBarActivity implements FragmentDrawer.Fr
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
         if (id == R.id.action_search) {
-            Toast.makeText(getApplicationContext(), "Search action is selected!", Toast.LENGTH_SHORT).show();
             return true;
         }
 

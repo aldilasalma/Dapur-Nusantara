@@ -1,11 +1,14 @@
-package id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.activity;
+package id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.activity;
 
 import android.app.Activity;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
+import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
+import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -14,21 +17,21 @@ import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
-import id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.R;
-import id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.adapter.ResepAdapter;
-import id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.model.Resep;
+import id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.R;
+import id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.adapter.TipsAdapter;
+import id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.model.Tips;
 
 /**
  * Created by USER on 17/11/2016.
  */
 
 
-public class HomeFragment extends Fragment {
+public class TipsFragment extends Fragment {
 
-    ArrayList<Resep> mList = new ArrayList<>();
-    ResepAdapter mAdapter;
+    ArrayList<Tips> mList = new ArrayList<>();
+    TipsAdapter mAdapter;
 
-    public HomeFragment() {
+    public TipsFragment() {
         // Required empty public constructor
     }
 
@@ -40,17 +43,21 @@ public class HomeFragment extends Fragment {
 
     private void filData() {
         Resources resources = getResources();
-        String[] arJudul = resources.getStringArray(R.array.places);
+        String[] arJudul = resources.getStringArray(R.array.tips);
         //String[] arDeskripsi = resources.getStringArray(R.array.place_desc);
-        TypedArray a = resources.obtainTypedArray(R.array.places_picture);
+        TypedArray a = resources.obtainTypedArray(R.array.tips_picture);
         Drawable[] arFoto = new Drawable[a.length()];
         for (int i = 0; i < arFoto.length; i++) {
-            arFoto[i] = a.getDrawable(i);
+            BitmapDrawable bd = (BitmapDrawable) a.getDrawable(i);
+            RoundedBitmapDrawable rbd =
+                    RoundedBitmapDrawableFactory.create(getResources(), bd.getBitmap());
+            rbd.setCircular(true);
+            arFoto[i] = rbd;
         }
         a.recycle();
 
         for (int i = 0; i < arJudul.length; i++) {
-            mList.add(new Resep(arJudul[i], /*arDeskripsi[i] */ arFoto[i]));
+            mList.add(new Tips(arJudul[i], /*arDeskripsi[i] */ arFoto[i]));
         }
         mAdapter.notifyDataSetChanged();
     }
@@ -58,13 +65,13 @@ public class HomeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_home, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_tips, container, false);
 
 
         RecyclerView recyclerView = (RecyclerView) rootView.findViewById(R.id.recyclerView);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(layoutManager);
-        mAdapter = new ResepAdapter(mList);
+        mAdapter = new TipsAdapter(mList);
         recyclerView.setAdapter(mAdapter);
 
         filData();

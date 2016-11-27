@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.adapter;
+package id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.adapter;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -9,8 +9,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.R;
-import id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.model.Tips;
+import id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.R;
+import id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.model.Tips;
 
 /**
  * Created by WINDOWS 8.1 on 22/11/2016.

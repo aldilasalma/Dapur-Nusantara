@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.activity;
+package id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.activity;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -17,9 +17,9 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
-import id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.R;
-import id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.adapter.NavigationDrawerAdapter;
-import id.sch.smktelkom_mlg.project.xirpl203132333.dapurnusantara.model.NavDrawerItem;
+import id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.R;
+import id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.adapter.NavigationDrawerAdapter;
+import id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.model.NavDrawerItem;
 
 public class FragmentDrawer extends Fragment {
 
