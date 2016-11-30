@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="minuman">
+        <item>Es Cendol</item>
+        <item>Pisang Ijo</item>
+        <item>Sinom</item>
+        <item>Secang</item>
+        <item>Beer Pletok</item>
+        <item>Es Teler</item>
+        <item>Ronde</item>
+        <item>Wedang Uwuh</item>
+        <item>Es Doger</item>
+    </string-array>
+
+    <array name="minuman_picture">
+        <item>@drawable/cendol</item>
+        <item>@drawable/ijo</item>
+        <item>@drawable/sinom</item>
+        <item>@drawable/secang</item>
+        <item>@drawable/bir</item>
+        <item>@drawable/teler</item>
+        <item>@drawable/ronde</item>
+        <item>@drawable/uwuh</item>
+        <item>@drawable/doger</item>
+    </array>
+
+</resources>
