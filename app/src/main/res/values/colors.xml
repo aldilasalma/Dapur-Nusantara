@@ -10,5 +10,7 @@
     <color name="hearderback">#D8BFD8</color>
     <color name="listback">#FFD7B1</color>
     <color name="judul">#6AA579</color>
+    <color name="listbackminum">#776E69</color>
+    <color name="judminum">#51B0C8</color>>
 
 </resources>

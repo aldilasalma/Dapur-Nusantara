@@ -45,7 +45,7 @@ public class MinumanFragment extends Fragment {
     private void filData() {
         Resources resources = getResources();
         String[] arJudul = resources.getStringArray(R.array.minuman);
-        String[] arLokasi = resources.getStringArray(R.array.place_locations);
+        //String[] arLokasi = resources.getStringArray(R.array.place_locations);
         //String[] arDeskripsi = resources.getStringArray(R.array.place_desc);
         TypedArray a = resources.obtainTypedArray(R.array.minuman_picture);
         Drawable[] arFoto = new Drawable[a.length()];
@@ -59,7 +59,7 @@ public class MinumanFragment extends Fragment {
         a.recycle();
 
         for (int i = 0; i < arJudul.length; i++) {
-            mList.add(new Minuman(arJudul[i], arLokasi[i], arFoto[i]));
+            mList.add(new Minuman(arJudul[i],/* arLokasi[i],*/ arFoto[i]));
         }
         mAdapter.notifyDataSetChanged();
     }

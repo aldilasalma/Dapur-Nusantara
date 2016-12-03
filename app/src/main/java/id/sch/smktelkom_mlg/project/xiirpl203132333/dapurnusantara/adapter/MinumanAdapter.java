@@ -25,7 +25,7 @@ public class MinumanAdapter extends RecyclerView.Adapter<MinumanAdapter.ViewHold
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_list, parent, false);
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.minuman_list, parent, false);
         ViewHolder vh = new ViewHolder(v);
         return vh;
     }
