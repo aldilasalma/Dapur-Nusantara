@@ -46,6 +46,7 @@
     </string-array>
     <string-array name="place_locations">
         <item>Bahan-bahan yang diperlukan:
+            \n
             \n - 200 gram daging kambing (bisa di ganti dengan daging sapi)
             \n - 300 gram mie basah besar, diseduh air panas
             \n - 4 siung bawang putih, diiris tipis-tipis
@@ -65,7 +66,7 @@
             \n
             \n
         Bumbu mie Aceh halus
-
+        \n
         \n - 6 butir bawang merah
         \n - 4 siung bawang putih
         \n - 1 butir kapulaga
@@ -76,16 +77,107 @@
         \n
         \n
         Cara membuat mie Aceh :
-
         \n - Rebus daging kambing dan daun salam dalam air. Setelah matang buang airnya. Potong-potong. Sisihkan.
         \n - Tumis bawang putih, bawang merah, dan bumbu yang telah dihaluskan sampai beraroma harum. Tambahkan daging kambing tadi. Aduk sampai rata.
         \n - Tambahkan tomat, toge, dan kol. Aduk hingga layu.
         \n - Masukkan kecap manis, garam, gula pasir, kaldu sapi, dan cuka. Masak sampai meresap.
         \n - Masukkan mie. Masak sampai matang. Menjelang diangkat, taburkan daun bawang. Aduk sampai rata.
         \n - Sajikan mie Aceh dengan acar mentimun, emping goreng, taburan bawang goreng, bawang merah mentah, cabe rawit hijau, dan perasan jeruk nipis.</item>
-        <item>Bengkulu</item>
-        <item>Sumatera Utara</item>
-        <item>Sumatera Barat</item>
+        <item>Bahan-bahan yang diperlukan :
+        \n
+         \n - 4 ekor (400 gram) ikan kembung, dicuci bersih
+         \n - 2 batang daun bawang, dipotong 1/2 cm
+         \n - 1 tangkai daun seledri, diiris kasar
+         \n - 2 cm lengkuas, dimemarkan
+         \n - 1 batang serai, dimemarkan
+         \n - 3 buah asam kandis
+         \n - 5 lembar daun mangkukan, diiris kasar
+         \n - 100 gram kelapa parut kasar, disangrai
+         \n - 300 ml santan dari 1/2 butir kelapa
+         \n - 1 sendok teh garam
+         \n - 1/4 sendok teh merica bubuk
+         \n - 1/4 sendok teh gula pasir
+         \n - 2 sendok makan minyak untuk menumis daun pisang untuk membungkus
+            \n
+            \n
+
+        BUMBU HALUS :
+        \n
+        \n - 8 butir bawang merah
+        \n - 4 siung bawang putih
+        \n - 5 butir kemiri, disangrai
+        \n - 6 buah cabai merah
+        \n - 2 cm jahe
+        \n - 2 cm kunyit, dibakar
+        \n
+        \n
+        CARA MEMASAK PENDAP (BENGKULU) :
+        \n
+
+        \n 1. Remas-remas daun mangkukan dengan 1/2 sendok teh garam. Cuci bersih. Tiriskan.
+        \n 2. Lumuri ikan kembung dengan setengah bagian bumbu halus. Bungkus seperti pepes. Kukus 30 menit sampai matang.
+        \n 3. Setelah matang, buka pepes. Letakkan di atas piring. Sisihkan.
+        \n 4. Panaskan minyak. Tumis sisa bumbu halus sampai harum.
+        \n 5. Tambahkan daun bawang, daun seledri, lengkuas, serai, asam kandis, dan daun mangkukan. Aduk sampai layu.
+        \n 6. Tambahkan kelapa parut. Aduk rata.
+        \n 7. Masukkan santan, garam, merica bubuk, dan gula pasir. Masak sampai matang dan kuah kental.
+        \n 8. Siram ke atas ikan kembung</item>
+        <item>Bahan :
+            \n
+        \n - 50 gr tepung terigu halus
+        \n - ½ sdt ragi siap saji
+        \n - 100 gr tepung sagu (ayak terlebihdahulu)
+        \n - 10 butir telur ayam, (pisahkan hanya kuningnya saja)
+        \n - 2 butir telur ayam (hanya putihnya saja)
+        \n - 200 ml santan kelapa kental
+        \n - 200 gr gula pasir halus
+        \n - 2 lembar daun pandan (rebus terlebihdahulu)
+        \n - 2 lembar daun jeruk
+        \n - 50 ml air putih
+        \n - Minyak goreng secukupnya
+        \n
+        \n
+        Cara Membuat Bika Ambon :
+        \n
+        \n 1. Siapkan wadah untuk membuat adonan, lalu masukan tepung terigu dan ragi instan, kemudian tuangkan air, aduk hingga merata, dan biarkan mengembang kurang lebih 15 menit
+        \n 2. Campurkan kuning telur, putih telur, dan gula pasir halus kedalam adonan, aduk hingga semua adonan tercampur dan kental. Lalu masukan lagi tepung sagu yang telah disiapkan dan santan kelapa kental secara perlahan sambil di aduk, lakukan sampai adonan tercampur semua dan kalis
+        \n 3. Selanjutnya masukan daun jeruk dan pandan kedalam adonan, lalu aduk hingga tercampur, setelah itu tutup bagian atas adonan dengan bahan yang halus, kemudian diamkan kurang lebih 10 jam, hingga adonan mengembang
+        \n 4. Siapkan loyang yang sudah diolesi minyak, kemudian tuangkan adonan bika yang sudah jadi, pangganglah adonan dengan tutup sedikit terbuka agar ada uap sedikit, tunggu sampai adonan matang dengan berubah warna agak kuning kecoklatan, angkat dan diamkan
+        \n 5. Sajikan dalam wadah atau piring saji yang disiapkan, potong-potonglah agar kue gampang dimakan</item>
+        <item>Bahan Rendang Daging :
+            \n
+        \n - daging sapi lulur 500 gram, potong melebar kurang lebih 12 bagian
+        \n - daun kunyit 2 lembar
+        \n - daun jeruk 2 lembar
+        \n - serai 2 batang, memarkan
+        \n - pekak 1 buah
+        \n - kelapa parut sangrai 2 sendok makan
+        \n - santan 1000-1500 ml dari 2 butir kelapa
+        \n - minyak goreng 2 sendok makan
+        \n
+        \n
+        Resep Bumbu Halus Rendang Daging :
+        \n
+        \n - bawang merah 10 butir
+        \n - bawang putih 6 siung
+        \n - cabai merah 150 gram
+        \n - cabai rawit sesuai selera
+        \n - kemiri 5 butir
+        \n - jinten 1/2 sendok teh
+        \n - ketumbar 1 sendok teh
+        \n - kunyit 1/2 cm
+        \n - jahe 1 cm
+        \n - garam secukupnya
+        \n
+        \n
+        Cara Membuat Rendang Daging :
+        \n
+        \n -  Panaskan minyak, tumis bumbu halus, daun kunyit, daun jeruk, serai dan pekak hingga harum.
+        \n - Masukkan daging, aduk hingga berubah warna.
+        \n - Tuang santan dan tambahkan kelapa parut sangrai, masak di atas api sedang sambil diaduk perlahan hingga mendidih.
+        \n - Kecilkan api, masak hingga daging matang, berminyak dan kecoklatan.
+        \n - Angkan dan sajikan.
+</item>
         <item>Yogyakarta</item>
         <item>Jawa Timur</item>
         <item>Bali</item>
