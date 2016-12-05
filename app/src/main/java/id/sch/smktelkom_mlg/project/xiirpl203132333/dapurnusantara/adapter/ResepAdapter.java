@@ -39,7 +39,7 @@ public class ResepAdapter extends RecyclerView.Adapter<ResepAdapter.ViewHolder> 
     public void onBindViewHolder(ViewHolder holder, int position) {
         Resep resep = resepList.get(position);
         holder.tvJudul.setText(resep.judul);
-        holder.tvLokasi.setText(resep.lokasi);
+        //   holder.tvLokasi.setText(resep.lokasi);
         // holder.tvDeskripsi.setText(resep.deskripsi);
         holder.ivFoto.setImageURI(Uri.parse(resep.foto));
     }

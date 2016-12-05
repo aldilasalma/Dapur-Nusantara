@@ -1,10 +1,11 @@
 package id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.activity;
 
 import android.app.Activity;
+import android.content.ContentResolver;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
@@ -17,6 +18,7 @@ import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
+import id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.DetailActivity;
 import id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.R;
 import id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.adapter.MinumanAdapter;
 import id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.model.Minuman;
@@ -27,10 +29,15 @@ import id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.model.Minuman
  */
 
 
-public class MinumanFragment extends Fragment {
+public class MinumanFragment extends Fragment implements MinumanAdapter.IMinumanAdapter {
 
+    public static final String MINUMAN = "minuman";
     ArrayList<Minuman> mList = new ArrayList<>();
     MinumanAdapter mAdapter;
+    ArrayList<Minuman> mListAll = new ArrayList<>();
+    boolean isFiltered;
+    ArrayList<Integer> mListMapFilter = new ArrayList<>();
+    String mQuery;
 
     public MinumanFragment() {
         // Required empty public constructor
@@ -39,6 +46,7 @@ public class MinumanFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setHasOptionsMenu(true);
 
     }
 
@@ -46,20 +54,24 @@ public class MinumanFragment extends Fragment {
         Resources resources = getResources();
         String[] arJudul = resources.getStringArray(R.array.minuman);
         //String[] arLokasi = resources.getStringArray(R.array.place_locations);
-        //String[] arDeskripsi = resources.getStringArray(R.array.place_desc);
+        // String[] arDeskripsi = resources.getStringArray(R.array.place_desc);
         TypedArray a = resources.obtainTypedArray(R.array.minuman_picture);
-        Drawable[] arFoto = new Drawable[a.length()];
+        String[] arFoto = new String[a.length()];
         for (int i = 0; i < arFoto.length; i++) {
             BitmapDrawable bd = (BitmapDrawable) a.getDrawable(i);
             RoundedBitmapDrawable rbd =
                     RoundedBitmapDrawableFactory.create(getResources(), bd.getBitmap());
             rbd.setCircular(true);
-            arFoto[i] = rbd;
+            int id = a.getResourceId(i, 0);
+            arFoto[i] = ContentResolver.SCHEME_ANDROID_RESOURCE + "://"
+                    + resources.getResourcePackageName(id) + '/'
+                    + resources.getResourceTypeName(id) + '/'
+                    + resources.getResourceEntryName(id);
         }
         a.recycle();
 
         for (int i = 0; i < arJudul.length; i++) {
-            mList.add(new Minuman(arJudul[i],/* arLokasi[i],*/ arFoto[i]));
+            mList.add(new Minuman(arJudul[i], /*arDeskripsi[i] , arLokasi[i],*/ arFoto[i]));
         }
         mAdapter.notifyDataSetChanged();
     }
@@ -73,7 +85,7 @@ public class MinumanFragment extends Fragment {
         RecyclerView recyclerView = (RecyclerView) rootView.findViewById(R.id.recyclerView);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(layoutManager);
-        mAdapter = new MinumanAdapter(mList);
+        mAdapter = new MinumanAdapter(this, mList);
         recyclerView.setAdapter(mAdapter);
 
         filData();
@@ -90,5 +102,12 @@ public class MinumanFragment extends Fragment {
     @Override
     public void onDetach() {
         super.onDetach();
+    }
+
+    @Override
+    public void doClick(int pos) {
+        Intent intent = new Intent(getActivity(), DetailActivity.class);
+        intent.putExtra(MINUMAN, mList.get(pos));
+        startActivity(intent);
     }
 }

@@ -1,5 +1,6 @@
 package id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.adapter;
 
+import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +11,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 import id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.R;
+import id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.activity.MinumanFragment;
 import id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.model.Minuman;
 
 /**
@@ -18,9 +20,11 @@ import id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.model.Minuman
 public class MinumanAdapter extends RecyclerView.Adapter<MinumanAdapter.ViewHolder> {
 
     ArrayList<Minuman> minumanList;
+    IMinumanAdapter mIMinumanAdapter;
 
-    public MinumanAdapter(ArrayList<Minuman> minumanList) {
+    public MinumanAdapter(MinumanFragment context, ArrayList<Minuman> minumanList) {
         this.minumanList = minumanList;
+        mIMinumanAdapter = context;
     }
 
     @Override
@@ -35,8 +39,8 @@ public class MinumanAdapter extends RecyclerView.Adapter<MinumanAdapter.ViewHold
         Minuman minuman = minumanList.get(position);
         holder.tvJudul.setText(minuman.judul);
         // holder.tvLokasi.setText(minuman.lokasi);
-        // holder.tvDeskripsi.setText(minuman.deskripsi);
-        holder.ivFoto.setImageDrawable(minuman.foto);
+        //holder.tvDeskripsi.setText(minuman.deskripsi);
+        holder.ivFoto.setImageURI(Uri.parse(minuman.foto));
     }
 
     @Override
@@ -46,18 +50,32 @@ public class MinumanAdapter extends RecyclerView.Adapter<MinumanAdapter.ViewHold
         return 0;
     }
 
+    public interface IMinumanAdapter {
+        void doClick(int pos);
+    }
+
     public class ViewHolder extends RecyclerView.ViewHolder {
         ImageView ivFoto;
         TextView tvJudul;
-        TextView tvLokasi;
+        // TextView tvLokasi;
         // TextView tvDeskripsi;
 
         public ViewHolder(View itemView) {
             super(itemView);
             ivFoto = (ImageView) itemView.findViewById(R.id.imageView);
             tvJudul = (TextView) itemView.findViewById(R.id.textViewJudul);
-            tvLokasi = (TextView) itemView.findViewById(R.id.textViewLokasi);
+            //  tvLokasi = (TextView) itemView.findViewById(R.id.textViewLokasi);
             // tvDeskripsi = (TextView) itemView.findViewById(R.id.textViewDeskripsi);
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mIMinumanAdapter.doClick(getAdapterPosition());
+                }
+            });
+
         }
     }
+
+
 }
