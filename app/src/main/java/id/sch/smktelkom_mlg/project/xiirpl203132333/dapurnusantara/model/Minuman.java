@@ -7,7 +7,7 @@ import java.io.Serializable;
  */
 public class Minuman implements Serializable {
     public String judul;
-    public String deskripsi;
+    //public String deskripsi;
     public String foto;
     //public String lokasi;
 
