@@ -20,9 +20,9 @@ Navigasi Drawer berisi :
 ![screenshot6] (https://ramadhanirz.files.wordpress.com/2016/12/whatsapp-image-2016-12-07-at-6-40-04-pm-1.jpeg)
 ![screenshot7] (https://ramadhanirz.files.wordpress.com/2016/12/whatsapp-image-2016-12-07-at-6-40-04-pm.jpeg)
 
-[VIDEO APLIKASI]
+VIDEO APLIKASI <p>
 <a href = "https://www.youtube.com/watch?v=5ssekP_Vap8" target ="_blank"><img src ="https://ramadhanirz.files.wordpress.com/2016/12/whatsapp-image-2016-12-07-at-6-40-04-pm-71.jpeg" alt="IMAGE ALT TEXT HERE" width="600"
-height="450" border="10" /> </a>
+height="500" border="20" /> </a>
 
 [LINK APLIKASI]
 (https://drive.google.com/open?id=0B9-XChjqB1lBbURiZ3NQblFWMGc) <h1>
