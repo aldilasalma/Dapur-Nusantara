@@ -5,11 +5,11 @@ Aplikasi ini menyediakan informasi tentang resep makanan dan minuman khas Indone
 selain itu menyediakan tips and trik agar memasak lebih mudah
 
 Navigasi Drawer berisi :
-  *Masakan Khas
-  *Minuman Khas
-  *Tips and Trik
-  *About Us
-  *Keluar
+  * Masakan Khas
+  * Minuman Khas
+  * Tips and Trik
+  * About Us
+  * Keluar
   
 > SCREENSHOT APLIKASI 
 ![screenshot1] (https://ramadhanirz.files.wordpress.com/2016/12/whatsapp-image-2016-12-07-at-6-40-04-pm-71.jpeg)
@@ -21,30 +21,30 @@ Navigasi Drawer berisi :
 ![screenshot7] (https://ramadhanirz.files.wordpress.com/2016/12/whatsapp-image-2016-12-07-at-6-40-04-pm.jpeg)
 
 [VIDEO APLIKASI]
-(https://www.youtube.com/watch?v=5ssekP_Vap8) <h1>
+(https://www.youtube.com/watch?v=5ssekP_Vap8) <h2>
 
 [LINK APLIKASI]
-(https://drive.google.com/open?id=0B9-XChjqB1lBbURiZ3NQblFWMGc) <h2>
+(https://drive.google.com/open?id=0B9-XChjqB1lBbURiZ3NQblFWMGc) <h1>
 
-Nama : Aldila Salma Yulita
-No. Abs : 03
-NIS : 4281/1179.063
-Username : aldilasalma
+Nama : Aldila Salma Yulita <h3>
+No. Abs : 03 <h3>
+NIS : 4281/1179.063 <h3>
+Username : aldilasalma <h3>
+<p>
+Nama : Effida Nur Maulidiyah <h3>
+No. Abs : 13<h3>
+NIS : -<h3>
+Username : effida<h3>
+<p>
+Nama : Mariska Serly Dianti <h3>
+No. Abs : 23<h3>
+NIS : 4371/1269.070<h3>
+Username : mariskasd<h3>
 
-Nama : Effida Nur Maulidiyah
-No. Abs : 13
-NIS : -
-Username : effida
-
-Nama : Mariska Serly Dianti
-No. Abs : 23
-NIS : 4371/1269.070
-Username : mariskasd
-
-Nama : Riza Ramadhani
-No. Abs : 33 
-NIS : 4426/1324.063
-Username : ramadhanirz
-
-Kelas : XII RPL 2
-Sekolah : SMK TELKOM MALANG
+Nama : Riza Ramadhani<h3>
+No. Abs : 33 <h3>
+NIS : 4426/1324.063<h3>
+Username : ramadhanirz<h3>
+<p>
+Kelas : XII RPL 2<h3>
+Sekolah : SMK TELKOM MALANG<h3>
