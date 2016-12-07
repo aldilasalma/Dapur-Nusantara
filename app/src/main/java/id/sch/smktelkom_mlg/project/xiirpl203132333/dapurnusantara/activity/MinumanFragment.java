@@ -18,7 +18,7 @@ import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
-import id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.DetailActivity;
+import id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.DetailMinumanActivity;
 import id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.R;
 import id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.adapter.MinumanAdapter;
 import id.sch.smktelkom_mlg.project.xiirpl203132333.dapurnusantara.model.Minuman;
@@ -106,7 +106,7 @@ public class MinumanFragment extends Fragment implements MinumanAdapter.IMinuman
 
     @Override
     public void doClick(int pos) {
-        Intent intent = new Intent(getActivity(), DetailActivity.class);
+        Intent intent = new Intent(getActivity(), DetailMinumanActivity.class);
         intent.putExtra(MINUMAN, mList.get(pos));
         startActivity(intent);
     }
