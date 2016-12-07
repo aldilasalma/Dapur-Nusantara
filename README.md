@@ -25,7 +25,7 @@ Navigasi Drawer berisi :
 
 [LINK APLIKASI]
 (https://drive.google.com/open?id=0B9-XChjqB1lBbURiZ3NQblFWMGc) <h1>
-
+<p>
 Nama : Aldila Salma Yulita <h3>
 No. Abs : 03 <h3>
 NIS : 4281/1179.063 <h3>
