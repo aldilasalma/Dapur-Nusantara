@@ -39,7 +39,7 @@ public class MinumanAdapter extends RecyclerView.Adapter<MinumanAdapter.ViewHold
         Minuman minuman = minumanList.get(position);
         holder.tvJudul.setText(minuman.judul);
         // holder.tvLokasi.setText(minuman.lokasi);
-        //holder.tvDeskripsi.setText(minuman.deskripsi);
+        // holder.tvDeskripsi.setText(minuman.deskripsi);
         holder.ivFoto.setImageURI(Uri.parse(minuman.foto));
     }
 
