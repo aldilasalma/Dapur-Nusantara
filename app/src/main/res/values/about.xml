@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nama">
+        <item>Aldila Salma Yulita</item>
+        <item>Effida Nur Maulidiyah</item>
+        <item>Mariska Serly Dianti</item>
+        <item>Riza Ramdhani</item>
+    </string-array>
+    <string-array name="absen">
+        <item>XII RPL 2 / 03</item>
+        <item>XII RPL 2 / 13</item>
+        <item>XII RPL 2 / 23</item>
+        <item>XII RPL 2 / 33</item>
+    </string-array>
+</resources>

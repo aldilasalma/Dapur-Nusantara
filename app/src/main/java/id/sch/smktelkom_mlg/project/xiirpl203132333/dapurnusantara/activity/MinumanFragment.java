@@ -59,7 +59,7 @@ public class MinumanFragment extends Fragment implements MinumanAdapter.IMinuman
         Resources resources = getResources();
         String[] arJudul = resources.getStringArray(R.array.minuman);
         // String[] arLokasi = resources.getStringArray(R.array.place_locations);
-        // String[] arDeskripsi = resources.getStringArray(R.array.minuman_desc);
+        String[] arDeskripsi = resources.getStringArray(R.array.minuman_desc);
         TypedArray a = resources.obtainTypedArray(R.array.minuman_picture);
         String[] arFoto = new String[a.length()];
         for (int i = 0; i < arFoto.length; i++) {
@@ -76,7 +76,7 @@ public class MinumanFragment extends Fragment implements MinumanAdapter.IMinuman
         a.recycle();
 
         for (int i = 0; i < arJudul.length; i++) {
-            mList.add(new Minuman(arJudul[i], /* arDeskripsi[i] , arLokasi[i],*/ arFoto[i]));
+            mList.add(new Minuman(arJudul[i], arDeskripsi[i], /* , arLokasi[i],*/ arFoto[i]));
         }
         mAdapter.notifyDataSetChanged();
     }

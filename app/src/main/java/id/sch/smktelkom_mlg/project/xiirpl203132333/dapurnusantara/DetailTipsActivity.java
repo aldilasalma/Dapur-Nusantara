@@ -25,7 +25,7 @@ public class DetailTipsActivity extends AppCompatActivity {
         ImageView ivFoto = (ImageView) findViewById(R.id.imageFoto);
         ivFoto.setImageURI(Uri.parse(tips.foto));
         TextView tvDeskripsi = (TextView) findViewById(R.id.place_detail);
-        tvDeskripsi.setText(tips.judul);
+        tvDeskripsi.setText(tips.judul + "\n\n" + tips.deskripsi);
 
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

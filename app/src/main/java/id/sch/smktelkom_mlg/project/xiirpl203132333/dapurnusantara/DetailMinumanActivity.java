@@ -26,7 +26,7 @@ public class DetailMinumanActivity extends AppCompatActivity {
         ImageView ivFoto = (ImageView) findViewById(R.id.imageFoto);
         ivFoto.setImageURI(Uri.parse(minuman.foto));
         TextView tvDeskripsi = (TextView) findViewById(R.id.place_detail);
-        tvDeskripsi.setText(minuman.judul);
+        tvDeskripsi.setText(minuman.judul + "\n\n" + minuman.deskripsi);
 
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

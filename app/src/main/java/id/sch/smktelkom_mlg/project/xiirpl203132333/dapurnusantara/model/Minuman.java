@@ -7,13 +7,13 @@ import java.io.Serializable;
  */
 public class Minuman implements Serializable {
     public String judul;
-    //public String deskripsi;
+    public String deskripsi;
     public String foto;
     //public String lokasi;
 
-    public Minuman(String judul,/* String lokasi  String deskripsi ,*/ String foto) {
+    public Minuman(String judul,/* String lokasi  ,*/String deskripsi, String foto) {
         this.judul = judul;
-        //   this.deskripsi = deskripsi;
+        this.deskripsi = deskripsi;
         this.foto = foto;
         // this.lokasi = lokasi;
     }

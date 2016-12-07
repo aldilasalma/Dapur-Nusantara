@@ -16,32 +16,30 @@
         android:background="?android:attr/selectableItemBackground"
         android:padding="16dp">
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:scaleType="centerCrop"
-            tools:src="@drawable/aa" />
-
         <TextView
-            android:id="@+id/textViewJudul"
+            android:id="@+id/textViewNama"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:layout_toEndOf="@+id/imageView"
-            android:layout_toRightOf="@+id/imageView"
-            android:ellipsize="end"
-            android:fontFamily="cursive"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/header"
+            android:textSize="20dp"
+            tools:text="Judul" />
+
+        <TextView
+            android:id="@+id/textViewAbsen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewNama"
             android:gravity="center"
             android:maxLines="1"
             android:paddingLeft="10dp"
             android:paddingTop="15dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Title"
-            android:textColor="@color/judul"
-            android:textSize="20dp"
-            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
             tools:text="Judul" />
 
     </RelativeLayout>

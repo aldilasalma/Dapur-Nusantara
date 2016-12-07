@@ -7,12 +7,12 @@ import java.io.Serializable;
  */
 public class Tips implements Serializable {
     public String judul;
-    //public String deskripsi;
+    public String deskripsi;
     public String foto;
 
-    public Tips(String judul, /*String deskripsi,*/ String foto) {
+    public Tips(String judul, String deskripsi, String foto) {
         this.judul = judul;
-        //this.deskripsi = deskripsi;
+        this.deskripsi = deskripsi;
         this.foto = foto;
     }
 }

@@ -85,6 +85,14 @@ public class MainActivity extends ActionBarActivity implements FragmentDrawer.Fr
             case 2:
                 fragment = new TipsFragment();
                 title = getString(R.string.title_tips);
+                break;
+            case 3:
+                fragment = new AboutUsFragment();
+                title = getString(R.string.title_about);
+                break;
+            case 4:
+                finish();
+                System.exit(0);
             default:
                 break;
 

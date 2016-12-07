@@ -58,7 +58,7 @@ public class TipsFragment extends Fragment implements TipsAdapter.ITipsAdapter {
     private void filData() {
         Resources resources = getResources();
         String[] arJudul = resources.getStringArray(R.array.tips);
-        //String[] arDeskripsi = resources.getStringArray(R.array.place_desc);
+        String[] arDeskripsi = resources.getStringArray(R.array.tips_details);
         TypedArray a = resources.obtainTypedArray(R.array.tips_picture);
         String[] arFoto = new String[a.length()];
         for (int i = 0; i < arFoto.length; i++) {
@@ -75,7 +75,7 @@ public class TipsFragment extends Fragment implements TipsAdapter.ITipsAdapter {
         a.recycle();
 
         for (int i = 0; i < arJudul.length; i++) {
-            mList.add(new Tips(arJudul[i], /*arDeskripsi[i] */ arFoto[i]));
+            mList.add(new Tips(arJudul[i], arDeskripsi[i], arFoto[i]));
         }
         mAdapter.notifyDataSetChanged();
     }

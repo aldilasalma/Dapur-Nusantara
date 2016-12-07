@@ -40,7 +40,6 @@
             android:layout_below="@+id/textViewJudul"
             android:layout_marginLeft="20dp"
             android:fontFamily="cursive"
-            android:text="Sayaa"
             android:textColor="@android:color/black"
             android:textSize="20dp"
             android:textStyle="bold" />

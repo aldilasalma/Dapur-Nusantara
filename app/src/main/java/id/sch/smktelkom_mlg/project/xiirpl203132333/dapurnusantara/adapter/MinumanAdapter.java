@@ -38,8 +38,8 @@ public class MinumanAdapter extends RecyclerView.Adapter<MinumanAdapter.ViewHold
     public void onBindViewHolder(ViewHolder holder, int position) {
         Minuman minuman = minumanList.get(position);
         holder.tvJudul.setText(minuman.judul);
-        // holder.tvLokasi.setText(minuman.lokasi);
-        // holder.tvDeskripsi.setText(minuman.deskripsi);
+        //holder.tvLokasi.setText(minuman.lokasi);
+        //holder.tvDeskripsi.setText(minuman.deskripsi);
         holder.ivFoto.setImageURI(Uri.parse(minuman.foto));
     }
 
@@ -65,7 +65,7 @@ public class MinumanAdapter extends RecyclerView.Adapter<MinumanAdapter.ViewHold
             ivFoto = (ImageView) itemView.findViewById(R.id.imageView);
             tvJudul = (TextView) itemView.findViewById(R.id.textViewJudul);
             //  tvLokasi = (TextView) itemView.findViewById(R.id.textViewLokasi);
-            // tvDeskripsi = (TextView) itemView.findViewById(R.id.textViewDeskripsi);
+            //tvDeskripsi = (TextView) itemView.findViewById(R.id.textViewDeskripsi);
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
