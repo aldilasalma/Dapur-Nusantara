@@ -25,6 +25,10 @@
         <activity
             android:name=".DetailMinumanActivity"
             android:label="@string/title_activity_detail_minuman"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".DetailTipsActivity"
+            android:label="@string/title_activity_detail_tips"
             android:theme="@style/MyMaterialTheme"></activity>
     </application>
 

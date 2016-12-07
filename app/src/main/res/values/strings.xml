@@ -115,4 +115,5 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="title_activity_detail_minuman">DetailMinumanActivity</string>
+    <string name="title_activity_detail_tips">DetailTipsActivity</string>
 </resources>
