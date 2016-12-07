@@ -37,7 +37,7 @@
             android:maxLines="1"
             android:paddingTop="15dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Title"
-            android:textColor="@color/listbackminum"
+            android:textColor="@color/judul"
             android:textStyle="bold"
             tools:text="Judul" />
 
