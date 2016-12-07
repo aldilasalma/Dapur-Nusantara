@@ -26,23 +26,23 @@ Navigasi Drawer berisi :
 [LINK APLIKASI]
 (https://drive.google.com/open?id=0B9-XChjqB1lBbURiZ3NQblFWMGc) <h1>
 <p>
-</h1>
-Nama : Aldila Salma Yulita<h3>
+IDENTITAS
+* Nama : Aldila Salma Yulita<h3>
 No. Abs : 03 <h3>
 NIS : 4281/1179.063 <h3>
 Username : aldilasalma <h3>
 <p>
-Nama : Effida Nur Maulidiyah <h3>
+* Nama : Effida Nur Maulidiyah <h3>
 No. Abs : 13<h3>
 NIS : -<h3>
 Username : effida<h3>
 <p>
-Nama : Mariska Serly Dianti <h3>
+* Nama : Mariska Serly Dianti <h3>
 No. Abs : 23<h3>
 NIS : 4371/1269.070<h3>
 Username : mariskasd<h3>
-
-Nama : Riza Ramadhani<h3>
+<p>
+* Nama : Riza Ramadhani<h3>
 No. Abs : 33 <h3>
 NIS : 4426/1324.063<h3>
 Username : ramadhanirz<h3>
