@@ -34,7 +34,7 @@ Username : aldilasalma <h3>
 <p>
 * Nama : Effida Nur Maulidiyah <h3>
 No. Abs : 13<h3>
-NIS : -<h3>
+NIS : 4331/1229.063<h3>
 Username : effida<h3>
 <p>
 * Nama : Mariska Serly Dianti <h3>
